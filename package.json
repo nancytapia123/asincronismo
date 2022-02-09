@@ -1,0 +1,27 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "trabajar con asincromismo en JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nancytapia123/asincronismo.git"
+  },
+  "keywords": [
+    "callback"
+  ],
+  "author": "Nancy Eliseth Tapia Aragon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nancytapia123/asincronismo/issues"
+  },
+  "homepage": "https://github.com/nancytapia123/asincronismo#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
